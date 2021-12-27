@@ -7,7 +7,7 @@ img {
   display: block;
   position: relative;
   top: 80px;
-  left: 1200px;
+  left: 900px;
 }
 .wrapper {
   position: absolute;
@@ -18,7 +18,7 @@ img {
   background-color: violet;
   position: relative;
   top: 200px;
-  left: 850px;
+  left: 650px;
   text-align: center;
   text-overflow: clip;
   border-radius: 5%;
