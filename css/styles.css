@@ -8,20 +8,12 @@ body {
 }
 img {
   display: block;
-  position: relative;
-  top: 80px;
-  left: 900px;
 }
-.wrapper {
-  position: absolute;
-}
+
 .text {
   width: 350px;
   height: 150px;
   background-color: violet;
-  position: relative;
-  top: 200px;
-  left: 650px;
   text-align: center;
   text-overflow: clip;
   border-radius: 5%;
@@ -43,4 +35,9 @@ form {
 }
 h1 {
   margin-bottom: 40px;
+}
+.cat {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
