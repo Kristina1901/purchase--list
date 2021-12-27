@@ -6,6 +6,10 @@ body {
   font-family: sans-serif;
   color: #2a2a2a;
   line-height: 1.5;
+  background-image: url(../img/sneg2-1-scaled.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: The Nautigal;
 }
 .container {
   padding: 15px;
@@ -17,10 +21,11 @@ img {
 .text {
   width: 350px;
   height: 150px;
-  background-color: violet;
+  background-color: yellow;
   text-align: center;
   text-overflow: clip;
   border-radius: 5%;
+  color: blue;
 }
 .blanket {
   display: flex;
@@ -32,32 +37,41 @@ form {
 }
 .boxing {
   display: flex;
-  min-width: 400px;
+  min-width: 500px;
+  margin-right: 0;
 }
 .list {
-  margin-left: 30px;
+  margin-left: 70px;
   text-align: center;
-  width: 300px;
-  border: green solid;
+  max-width: 300px;
 }
 h1 {
   margin-bottom: 40px;
   font-weight: bold;
+  font-family: The Nautigal;
 }
-.catf {
-  position: absolute;
-  width: 400px;
-  right: 0%;
-  height: 100%;
-}
-
 button {
-  margin-left: 35px;
+  margin-left: 5px;
   margin-top: 15px;
-  background-color: green;
+  background-color: yellow;
   border: none;
+  font-family: The Nautigal;
+  color: blue;
+  padding: 12px;
 }
 .ins {
   font-weight: bold;
   margin-bottom: 10px;
+  font-family: The Nautigal;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.catf {
+  margin-left: 300px;
+}
+.form input {
+  margin-bottom: 16px;
+  padding: 8px 8px;
 }
